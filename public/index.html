@@ -21,7 +21,7 @@
 
       <form v-on:submit.prevent="saveNewItem">
         <label for="new-item">Add a new task:</label>
-        <input id="new-item" type="text" v-model="newItem"/>
+        <input id="new-item" type="text" v-model="newItem" required/>
         <input type="submit" value="Save New Item"/>
       </form>
 
